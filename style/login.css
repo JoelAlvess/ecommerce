@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #FFD54F;
+    --color-body: #F2F2F2;
+    --color-secondary: #0D47A1;
+    --font: "Nunito", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: var(--font);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in{
+    max-width: 50rem;
+    width: 35rem;
+    /* height: 30rem; */
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.571);
+}
+
+fieldset{
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+legend{
+    margin: 1.5rem;
+    text-align: center;
+    font-size: 2.4rem;
+}
+.name-app{
+    padding: 1rem;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+input{
+    margin-bottom: .6rem;
+    width: 100%;
+    padding: rem;
+    outline: none;
+    margin-top: .5rem;
+    padding: .8rem;
+}
+
+.reset-pass{
+    width: 100%;
+    text-align: right;
+}
+.account-google{
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.account-google > a{
+    text-decoration: none;
+    color: black;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn{
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    background-color: var(--color-secondary);
+    border: none;
+    color: #F2F2F2;
+    cursor: pointer;
+}
+
+.sign-up{
+    font-family: var(--font);
+    text-decoration: none;
+}
