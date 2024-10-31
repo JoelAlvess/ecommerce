@@ -121,6 +121,7 @@ body{
     width: 500px;
 }
 
+/* hero-carousel */
 .container-carousel{
     width: 100%;
     margin: 1.6rem auto;
@@ -133,6 +134,8 @@ body{
     gap: 1rem;
     transition: transform 0.5s ease-in-out;
 }
+
+/* sessão de benefícios */
 
 .container-benefits{
     background-image: linear-gradient(to top, var(--color-primary),var(--color-secondary));
@@ -177,4 +180,82 @@ body{
     color: rgb(255, 255, 255);
     background-color: var(--color-secondary);
     border: 6px;
+}
+
+/* Shop */
+
+.shop-product{
+    padding: .8rem;
+    width: 90%;
+    margin: 2.5rem auto;
+    display: flex;
+}
+
+.title-offer{
+    margin-bottom: .6rem;
+    font-family: var(--font);
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.container__shop-carousel{
+    overflow: hidden;
+}
+
+.track-offer{
+    width: 60rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform 1s ease-in-out;
+}
+
+.product{
+    padding: .9rem;
+    margin-left: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #8f8f8f;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.name-product{
+    text-align: center;
+    font-family: var(--font);
+    font-size: 2rem;
+}
+
+.info{
+    margin: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-product{
+    margin-top: .5rem;
+    font-family: var(--font);
+    font-size: 1.6rem;
+}
+
+.btn-shop{
+    width: 12rem;
+    margin-top: .6rem;
+    padding: .8rem;
+    font-family: var(--font);
+    font-size: 1.4rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    color: rgb(255, 255, 255);
+    background-color: var(--color-secondary);
+    border-radius: 6px;
+}
+.img-offer-day{
+    width: 30rem;
 }

@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce</title>
-    
+
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <header class="header">
-
         <div class="container-input">
-            <input type="text" name="search" id="search" 
-                   class="search-product" placeholder="Buscar produtos">
+            <input type="text" name="search" id="search" class="search-product" placeholder="Buscar produtos">
             <img src="images/search.png" alt="Ícone de busca" class="icon-search">
         </div>
 
         <nav class="navigation">
-
             <div class="container-nav">
                 <h1 class="name-app">ClickShop</h1>
-                <nav>
-                    <ul class="menu">
-                        <li class="item"><a href="#">Categorias</a></li>
-                        <li class="item"><a href="#">Ofertas</a></li>
-                        <li class="item"><a href="#">ClickPay</a></li>
-                        <li class="item"><a href="#">Vender</a></li>
-                    </ul>
-                </nav>
+                <ul class="menu">
+                    <li class="item"><a href="#">Categorias</a></li>
+                    <li class="item"><a href="#">Ofertas</a></li>
+                    <li class="item"><a href="#">ClickPay</a></li>
+                    <li class="item"><a href="#">Vender</a></li>
+                </ul>
             </div>
             <div class="account">
                 <ul class="menu-account">
@@ -35,11 +32,10 @@
                     <li class="menu-item"><a href="login.html">Acessar conta</a></li>
                 </ul>
             </div>
-           
             <img src="images/shopping_cart.png" alt="carrinho de compras" class="shopping_cart">
-            
         </nav>
     </header>
+
     <section class="container-carousel">
         <div class="carousel-track">
             <img src="images/1.png" alt="" class="img-animation">
@@ -49,16 +45,16 @@
             <img src="images/5.png" alt="" class="img-animation">
             <img src="images/7.png" alt="" class="img-animation">
             <img src="images/8.png" alt="" class="img-animation">
-            <img src="images/9.png" alt="" width="900px">
+            <img src="images/9.png" alt="">
         </div>
     </section>
 
     <section class="container-benefits">
         <div class="benefits">
             <h3 class="title-benefits">
-                frete grátis na 1º compra
+                Frete grátis na 1º compra
             </h3>
-            <img src="images/box.png" alt="caixa" >
+            <img src="images/box.png" alt="caixa">
             <p class="text-benefits">
                 Benefício por ser sua primeira compra
             </p>
@@ -82,7 +78,7 @@
             <p class="text-benefits">
                 Insira sua localização e veja os prazos de entrega
             </p>
-            <a href="#" class="btn-benefits">Insirir localização</a>
+            <a href="#" class="btn-benefits">Inserir localização</a>
         </div>
         <div class="benefits">
             <h3 class="title-benefits">
@@ -95,9 +91,49 @@
             <a href="#" class="btn-benefits">Meios de pagamento</a>
         </div>
     </section>
+    <!-- Shop -->
+    <!-- <h2>Hora da compra!</h2> -->
+    <section class="shop-product">
+        <section class="container__shop-offer">
+            <h3 class="title-offer">Ofertas do dia</h3>
 
+                <section class="container__shop-carousel">
+                    <div class="track-offer">
+                        <section class="product">
+                            <h4 class="name-product">Iphone 16</h4>
+                            <img src="images/iphone-card-40-iphone16prohero-202409.jpg" alt="iphone 16" class="img-offer-day" width="300px">
+                            <div class="info">
+                                <p class="price-product">R$ 10.900,00</p>
+                                <a href="#" class="btn-shop">Comprar</a>
+                            </div>
+                        </section>
+                        <section class="product">
+                            <h4 class="name-product">Apple Watch Series 10</h4>
+                            <img src="images/watch-card-40-s10-202409.jpg" alt="Apple Watch Series 10" class="img-offer-day" width="300px">
+                            <div class="info">
+                                <p class="price-product">R$ 5.499,00</p>
+                                <a href="#" class="btn-shop">Comprar</a>
+                            </div>
+                        </section>
+                        <section class="product">
+                            <h4 class="name-product">MacBook Air</h4>
+                            <img src="images/mba13-midnight-select-202402.jpg" alt="MacBook Air" class="img-offer-day">
+                            <div class="info">
+                                <p class="price-product">R$ 12.499,00</p>
+                                <a href="#" class="btn-shop">Comprar</a>
+                            </div>
+                        </section>
+                    </div>
+                </section>
 
+        </section>
+
+        <section class="container-shop-day">
+            <h3 class="title__shop-day">Compras do dia</h3>
+        </section>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
