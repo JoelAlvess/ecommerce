@@ -8,7 +8,7 @@
 
 :root{
     --color-primary: #FFD54F;
-    --color-body: #F2F2F2;
+    --color-body: #ffffff;
     --color-secondary: #0D47A1;
 
     --font: "Nunito", sans-serif;
@@ -189,6 +189,8 @@ body{
     width: 90%;
     margin: 2.5rem auto;
     display: flex;
+    justify-content: space-between;
+    background-color: white;
 }
 
 .title-offer{
@@ -218,7 +220,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #8f8f8f;
+    /* border: 1px solid #8f8f8f; */
     border-radius: 6px;
     background-color: white;
 }
@@ -258,4 +260,32 @@ body{
 }
 .img-offer-day{
     width: 30rem;
+}
+
+
+.container-shop-day{
+    margin-left: 2rem;
+    padding: 1rem;
+    /* width: 100%; */
+}
+
+.shop-day{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.card-product{
+    width: 25rem;
+    margin-bottom: .3rem;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    box-shadow: 6px 0px 5px rgba(0, 0, 0, 0.63);
+    border-radius: 6px;
 }
